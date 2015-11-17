@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:zp="http://schemas.android.com/apk/res/com.zp.mobliesafe"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        style="@style/TitleStyle"
+        android:text="设置中心" />
+
+    <com.zp.mobliesafe.view.SettingItemView
+        android:id="@+id/siv_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        zp:desc_off="自动更新已关闭"
+        zp:desc_on="自动更新已开启"
+        zp:title1="自动更新设置" />
+    
+    <com.zp.mobliesafe.view.SettingItemView
+        android:id="@+id/siv_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        zp:desc_off="归属地显示已经关闭"
+        zp:desc_on="归属地显示已经开启"
+        zp:title1="电话归属地显示设置" />
+     <com.zp.mobliesafe.view.SettingClickView
+        android:id="@+id/scv_address_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+		
+        zp:title1="电话归属地显示设置" />
+     <com.zp.mobliesafe.view.SettingClickView
+        android:id="@+id/scv_address_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
