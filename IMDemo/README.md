@@ -9,11 +9,19 @@
 > 3. 后台接受到其他用户发来的消息并使用通知和红色角标提示提示。
 > 4. 聊天记录的保存。
 
-#### 整体效果如下 ####
+#### 登陆 ####
 
-！[show]()
+![login](https://github.com/you-big-big/MyApp/blob/master/IMDemo/gif/login.gif)
 
+#### 注册+添加好友 ####
 
+![logout](https://github.com/you-big-big/MyApp/blob/master/IMDemo/gif/logout.gif)
+
+#### 新信息提示使用通知 ####
+![notification](https://github.com/you-big-big/MyApp/blob/master/IMDemo/gif/notification.gif)
+
+#### 新信息提示使用脚标 ####
+![jiaobiao](https://github.com/you-big-big/MyApp/blob/master/IMDemo/gif/jiaobiao.gif)
 
 ## 大概过程 ##
 
