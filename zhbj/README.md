@@ -748,3 +748,5 @@ BaseMenuDtailPager
 	instantiateItem
 	image.setOnTouchListener(new TopNewsTouchListener());
 
+
+
