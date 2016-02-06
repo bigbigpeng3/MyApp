@@ -1,7 +1,7 @@
 
 
 
-# This repo contains three app #
+# This repo contains three apps #
 
 
 
